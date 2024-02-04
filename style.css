@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .jumbotron {
     padding-top: 6rem;
     background-color: #e2edff;
@@ -23,7 +27,6 @@ section {
     height: 300px;
 }
 
-
 /* My Keyboard Section */
 .keyboard-box {
     position: relative;
@@ -48,7 +51,6 @@ section {
 }
 
 .keyboard-box:hover::before {
-    
     opacity: 0.2;
 }
 
@@ -67,7 +69,6 @@ section {
 }
 
 .keyboard-box:hover::after {
-    
     opacity: 0.2;
 }
 
@@ -79,7 +80,7 @@ section {
     text-align: center;
     font-size: 2em;
     opacity: 0;
-    transform: translate3d(0,0,50px);
+    transform: translate3d(0, 0, 50px);
     transition: 0.5;
 }
 
@@ -111,5 +112,5 @@ section {
 }
 
 .keyboard-box:hover .keyboard-img {
-    transform: translate3d(-52%, -50%,80px) rotate(-5deg) scale(2);
+    transform: translate3d(-52%, -50%, 80px) rotate(-5deg) scale(2);
 }
