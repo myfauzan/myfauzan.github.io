@@ -11,6 +11,10 @@ html {
     background-color: #e2edff;
 }
 
+.container a {
+    text-decoration: none;
+}
+
 section {
     padding-top: 5rem;
 }
