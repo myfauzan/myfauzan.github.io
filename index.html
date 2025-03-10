@@ -1,401 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>My Portfolio | M Yazid Fauzan</title>
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-
-        <!-- Bootstrap Icons -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
-
-        <!-- AOS -->
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-        <!-- My CSS -->
-        <link rel="stylesheet" href="style.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Muhammad Yazid Fauzan - Web Developer</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     </head>
-    <body id="home">
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
+    <body>
+        <!-- Header Section -->
+        <header>
             <div class="container">
-                <a class="navbar-brand" href="#">M Yazid Fauzan</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item ms-md-auto me-md-auto ms-sm-auto me-sm-auto">
-                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                        </li>
-                        <li class="nav-item ms-md-auto me-md-auto ms-sm-auto me-sm-auto">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item ms-md-auto me-md-auto ms-sm-auto me-sm-auto">
-                            <a class="nav-link" href="#projects">Projects</a>
-                        </li>
-                        <li class="nav-item ms-md-auto me-md-auto ms-sm-auto me-sm-auto">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
+                <div class="logo">Muhammad Yazid Fauzan</div>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
+                </nav>
+                <a href="mailto:muhammadyazidfauzan@gmai.com?subject=Hire%20Me&body=Hi%20[Your%20Name],%0D%0A%0D%0AI%20would%20like%20to%20discuss%20a%20project%20with%20you.%0D%0A%0D%0ALooking%20forward%20to%20your%20reply!" class="btn-primary hire-me">Hire Me</a>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
                 </div>
             </div>
-        </nav>
-        <!-- Akhir Navbar -->
+        </header>
 
-        <!-- Jumbotron -->
-        <section class="jumbotron text-center">
-            <img src="img/yazid.jpg" alt="M Yazid Fauzan" width="200" class="rounded-circle img-thumbnail" />
-            <h1 class="display-4">M Yazid Fauzan</h1>
-            <p class="lead"></p>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path
-                    fill="#ffffff"
-                    fill-opacity="1"
-                    d="M0,224L40,229.3C80,235,160,245,240,240C320,235,400,213,480,181.3C560,149,640,107,720,117.3C800,128,880,192,960,218.7C1040,245,1120,235,1200,197.3C1280,160,1360,96,1400,64L1440,32L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
-                ></path>
-            </svg>
-        </section>
-        <!-- Akhir Jumbotron -->
-
-        <!-- About -->
-        <section id="about">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
             <div class="container">
-                <div class="row text-center mb-3">
-                    <div class="col">
-                        <h2>About Me</h2>
-                    </div>
-                </div>
-                <div class="row justify-content-center fs-5 text-center">
-                    <div class="col-md-16" data-aos="fade-right" data-aos-duration="1000">
-                        <p>
-                            I am a fresh graduate with interest in web development, mobile application development and IoT. I've successfully created a smart socket implementation using Android Studio and the Kotlin language for an app I built myself. This project involves mobile programming, IoT
-                            concepts, and collaboration with lecturers. I am enthusiastic to develop my career in software development and IoT.
-                        </p>
-                    </div>
+                <h1>Hi, I'm <span>Zan</span></h1>
+                <p>A Junior Web Developer</p>
+                <p>I build modern, responsive, and user-friendly websites and web applications.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn-primary">View My Work</a>
+                    <a href="/assets/CV ATS Programmer_Muhammad Yazid Fauzanr.pdf" class="btn-secondary">Download Resume</a>
                 </div>
             </div>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path
-                    fill="#e2edff"
-                    fill-opacity="1"
-                    d="M0,96L40,85.3C80,75,160,53,240,69.3C320,85,400,139,480,144C560,149,640,107,720,96C800,85,880,107,960,144C1040,181,1120,235,1200,213.3C1280,192,1360,96,1400,48L1440,0L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
-                ></path>
-            </svg>
         </section>
-        <!-- Akhir About -->
 
-        <!-- Projects -->
-        <section id="projects">
+        <!-- About Section -->
+        <section id="about" class="about">
             <div class="container">
-                <div class="row text-center mb-3">
-                    <div class="col">
-                        <h2>My Projects</h2>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-10 col-lg-6 mb-3">
-                        <a href="https://myfauzan.github.io/kedai-kopi-bogoshippo-coffee" target="_blank" rel="noreferrer noopener">
-                            <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
-                                <img src="img/projects/1.jpg" class="card-img-top" alt="Project 1" />
-                                <div class="card-body">
-                                    <h2>Bogoshipo Coffee</h2>
-                                    <p class="card-text">This project is make a coffeshop website responsive with HTML, CSS, and Alpine JS.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-10 col-lg-6 mb-3">
-                        <a href="https://github.com/myfauzan/kasir-app" target="_blank" rel="noreferrer noopener">
-                            <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="400">
-                                <img src="img/projects/2.jpg" class="card-img-top" alt="Project 2" />
-                                <div class="card-body">
-                                    <h2>Kasir App</h2>
-                                    <p class="card-text">This project is make a apps responsive for cashier restaurant with React JS.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-10 col-lg-6 mb-3">
-                        <a href="https://myfauzan.github.io/the-wedding" target="_blank" rel="noreferrer noopener">
-                            <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600">
-                                <img src="img/projects/3.jpg" class="card-img-top" alt="Project 3" />
-                                <div class="card-body">
-                                    <h2>The Wedding</h2>
-                                    <p class="card-text">This project is make a website responsive wedding invitation with HTML, CSS and Bootstrap 5</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-10 col-lg-6 mb-3">
-                        <a href="https://frhythmfamily.github.io" target="_blank" rel="noreferrer noreferrer">
-                            <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="800">
-                                <img src="img/projects/4.jpg" class="card-img-top" alt="Project 4" />
-                                <div class="card-body">
-                                    <h2>Frhythm Family</h2>
-                                    <p class="card-text">This project is make a website responsive community profiles with HTML, CSS and Alpine JS</p>
-                                </div>
-                            </div>
-                        </a>
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <img src="/assets/images/profle.JPG" alt="Your Name" />
+                    <div class="bio">
+                        <p>I’m a passionate web developer with over 2 years of experience in building scalable and user-friendly web applications. I specialize in frontend development using React.js and have a strong foundation in backend technologies like Node.js and Golang.</p>
+                        <!-- <a href="#contact" class="btn-primary">Learn More</a> -->
                     </div>
                 </div>
             </div>
-
-            <section id="my-keyboards">
-                <div class="container">
-                    <div class="row text-center mb-3">
-                        <div class="col">
-                            <h2>My Keyboards</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 col-lg-4 mb-3">
-                            <div class="keyboard-box">
-                                <h4 class="keyboard-name">Keychron K2</h4>
-                                <img src="img/keyboards/1.png" alt="Keychrone K2" class="keyboard-img" />
-                                <a href="#" class="btn btn-light keyboard-detail-button">Show Details</a>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 mb-3">
-                            <div class="keyboard-box">
-                                <h4 class="keyboard-name">Titan III</h4>
-                                <img src="img/keyboards/2.png" alt="Titan III" class="keyboard-img" />
-                                <a href="#" class="btn btn-light keyboard-detail-button">Show Details</a>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 mb-3">
-                            <div class="keyboard-box">
-                                <h4 class="keyboard-name">ALGK-8404</h4>
-                                <img src="img/keyboards/3.png" alt="ALGK-8404" class="keyboard-img" />
-                                <a href="#" class="btn btn-light keyboard-detail-button">Show Details</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path
-                    fill="#ffffff"
-                    fill-opacity="1"
-                    d="M0,96L40,112C80,128,160,160,240,149.3C320,139,400,85,480,80C560,75,640,117,720,133.3C800,149,880,139,960,144C1040,149,1120,171,1200,165.3C1280,160,1360,128,1400,112L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
-                ></path>
-            </svg>
         </section>
-        <!-- Akhir Projects -->
 
-        <!-- Galery -->
-        <section id="gallery">
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
             <div class="container">
-                <div class="row text-center mb-3">
-                    <div class="col">
-                        <h2>Gallery</h2>
+                <h2>My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML5</h3>
                     </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-3">
-                        <a href="#">
-                            <img src="img/gallery/thumbnail/1.jpg" alt="Gambar 1" class="img-fluid gallery-img" />
-                        </a>
+                    <div class="skill">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS3</h3>
                     </div>
-                    <div class="col-md-3">
-                        <a href="#">
-                            <img src="img/gallery/thumbnail/2.jpg" alt="Gambar 2" class="img-fluid gallery-img" />
-                        </a>
+                    <div class="skill">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
                     </div>
-                    <div class="col-md-3">
-                        <a href="#">
-                            <img src="img/gallery/thumbnail/3.jpg" alt="Gambar 3" class="img-fluid gallery-img" />
-                        </a>
+                    <div class="skill">
+                        <i class="fab fa-react"></i>
+                        <h3>React.js</h3>
                     </div>
-                    <div class="col-md-3">
-                        <a href="#">
-                            <img src="img/gallery/thumbnail/4.jpg" alt="Gambar 4" class="img-fluid gallery-img" />
-                        </a>
+                    <div class="skill">
+                        <i class="fab fa-node"></i>
+                        <h3>Node.js</h3>
                     </div>
-                    <div class="col-md-3">
-                        <a href="#">
-                            <img src="img/gallery/thumbnail/5.jpg" alt="Gambar 5" class="img-fluid gallery-img" />
-                        </a>
-                    </div>
-                    <div class="col-md-3">
-                        <a href="#">
-                            <img src="img/gallery/thumbnail/6.jpg" alt="Gambar 6" class="img-fluid gallery-img" />
-                        </a>
-                    </div>
-                    <div class="col-md-3">
-                        <a href="#">
-                            <img src="img/gallery/thumbnail/7.jpg" alt="Gambar 7" class="img-fluid gallery-img" />
-                        </a>
-                    </div>
-                    <div class="col-md-3">
-                        <a href="#">
-                            <img src="img/gallery/thumbnail/8.jpg" alt="Gambar 8" class="img-fluid gallery-img" />
-                        </a>
-                    </div>
-                    <div class="col-md-3">
-                        <a href="#">
-                            <img src="img/gallery/thumbnail/9.jpg" alt="Gambar 9" class="img-fluid gallery-img" />
-                        </a>
-                    </div>
-                    <div class="col-md-3">
-                        <a href="#">
-                            <img src="img/gallery/thumbnail/10.jpg" alt="Gambar 10" class="img-fluid gallery-img" />
-                        </a>
+                    <div class="skill">
+                        <i class="fab fa-git"></i>
+                        <h3>Git</h3>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Akhir Galery -->
-        <!-- Contact -->
-        <section id="contact">
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
             <div class="container">
-                <div class="row text-center mb-3">
-                    <div class="col">
-                        <h2>Contact Me</h2>
+                <h2>My Projects</h2>
+                <div class="projects-grid">
+                    <div class="project">
+                        <img src="/assets/images/project1.jpg" alt="Project 1" />
+                        <h3>Bogoshipo Coffee Website</h3>
+                        <p>A fully functional coffeshop website with payment integration.</p>
+                        <a href="https://myfauzan.github.io/kedai-kopi-bogoshippo-coffee" class="btn-primary">Live Demo</a>
+                        <a href="https://github.com/myfauzan/kedai-kopi-bogoshippo-coffee" class="btn-secondary">GitHub Repo</a>
                     </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-8">
-                        <div class="alert alert-danger alert-dismissible fade show d-none my-alert-error" role="alert"><strong>Gagal Dikirim!</strong> Form harus diisi semua.</div>
-                        <div class="alert alert-success alert-dismissible fade show d-none my-alert-success" role="alert">
-                            <strong>Terimakasih!</strong> Pesan anda sudah kami terima.
-                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                        </div>
-                        <form name="contact-form">
-                            <div class="mb-3">
-                                <label for="name" class="form-label">Full Name</label>
-                                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
-                            </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Email Address</label>
-                                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
-                            </div>
-                            <div class="mb-3">
-                                <label for="pesan" class="form-label">Message</label>
-                                <textarea class="form-control" id="pesan" rows="6" name="pesan"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-success btn-kirim">Send</button>
-
-                            <button class="btn btn-primary btn-loading d-none" type="button" disabled>
-                                <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
-                                <span role="status">Loading...</span>
-                            </button>
-                        </form>
+                    <div class="project">
+                        <img src="/assets/images/project2.jpg" alt="Project 1" />
+                        <h3>Wedding Invitation Website</h3>
+                        <p>A website responsive wedding invitation with name replacement for guest.</p>
+                        <a href="https://myfauzan.github.io/the-wedding" class="btn-primary">Live Demo</a>
+                        <a href="https://github.com/myfauzan/the-wedding" class="btn-secondary">GitHub Repo</a>
+                    </div>
+                    <div class="project">
+                        <img src="/assets/images/project3.jpg" alt="Project 2" />
+                        <h3>Frhythm Family Website</h3>
+                        <p>A website responsive community profile showcasing update news and project video.</p>
+                        <a href="https://frhythmfamily.github.io" class="btn-primary">Live Demo</a>
+                        <a href="https://github.com/frhythmfamily/frhythmfamily.github.io" class="btn-secondary">GitHub Repo</a>
                     </div>
                 </div>
             </div>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path
-                    fill="#0d6efd"
-                    fill-opacity="1"
-                    d="M0,224L40,224C80,224,160,224,240,234.7C320,245,400,267,480,277.3C560,288,640,288,720,293.3C800,299,880,309,960,309.3C1040,309,1120,299,1200,277.3C1280,256,1360,224,1400,208L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
-                ></path>
-            </svg>
         </section>
-        <!-- Akhir Contact -->
 
-        <!-- Footer -->
-        <footer class="bg-primary text-white text-center pt-2 pb-2">
-            <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/myzdfzn" class="text-white fw-bold">M Yazid Fauzan</a></p>
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form action="https://formspree.io/f/xrbpgznp" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required />
+                    <input type="email" name="email" placeholder="Your Email" required />
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer>
+            <div class="container">
+                <p>&copy; 2023 Muhammad Yazid Fauzan. All Rights Reserved.</p>
+                <div class="social-links">
+                    <a href="https://github.com/myfauzan"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/myzdfzn/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://instagram.com/myzdfzn"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
         </footer>
-        <!-- Akhir Footer -->
 
-        <!-- Bootstrap JS -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <!-- Alert Container -->
+        <div id="alert" class="alert hidden">
+            <span id="alert-message"></span>
+            <button id="close-alert">&times;</button>
+        </div>
 
-        <!-- AOS JS -->
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-            const galleryImage = document.querySelectorAll('.gallery-img');
-
-            galleryImage.forEach((img, i) => {
-                img.dataset.aos = 'fade-down';
-                img.dataset.aosDelay = i * 100;
-                img.dataset.aosDuration = 1000;
-            });
-
-            AOS.init({
-                once: true
-            });
-        </script>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/TextPlugin.min.js"></script>
-
-        <!-- GSAP JS -->
-        <script>
-            gsap.registerPlugin(TextPlugin);
-            gsap.to('.lead', {
-                duration: 2,
-                delay: 1.5,
-                text: 'Web Developer | Android Developer'
-            });
-            gsap.from('.jumbotron img', {duration: 1, rotateY: 360, opacity: 0});
-            gsap.from('.navbar', {duration: 1.5, y: '-100%', opacity: 0, ease: 'bounce'});
-            gsap.from('.display-4', {duration: 1, x: -50, opacity: 0, delay: 0.5, ease: 'back'});
-        </script>
-
-        <!-- Google Sheet JS -->
-        <script>
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbz5-AwvR-4K9kybL3me_BmOBJTyL16S67tKwGOxkIicBHxBCD63wlG3sHdP06Qtb-A/exec';
-            const form = document.forms['contact-form'];
-            const btnKirim = document.querySelector('.btn-kirim');
-            const btnLoading = document.querySelector('.btn-loading');
-            const myAlertSuccess = document.querySelector('.my-alert-success');
-            const myAlertError = document.querySelector('.my-alert-error');
-            const inputFields = form.querySelectorAll('input, textarea');
-
-            inputFields.forEach((input) => {
-                input.addEventListener('input', () => {
-                    myAlertError.classList.add('d-none'); // Menambah class 'd-none' untuk menyembunyikan alert
-                });
-            });
-
-            form.addEventListener('submit', (e) => {
-                e.preventDefault();
-                // Periksa nilai dari input field dalam formulir
-                let isEmpty = false;
-                inputFields.forEach((input) => {
-                    if (input.value.trim() === '') {
-                        isEmpty = true;
-                    }
-                });
-
-                if (isEmpty) {
-                    // tampilkan alert
-                    myAlertError.classList.remove('d-none');
-                } else {
-                    // ketika tombil submit diklik
-                    // tampilkan tombol loading, hilangkan tombol kirim
-                    btnLoading.classList.toggle('d-none');
-                    btnKirim.classList.toggle('d-none');
-                    fetch(scriptURL, {method: 'POST', body: new FormData(form)})
-                        .then((response) => {
-                            // tampilkan tombol kirim, hilangkan tombol loading
-                            btnLoading.classList.toggle('d-none');
-                            btnKirim.classList.toggle('d-none');
-
-                            // tampilkan alert
-                            myAlertSuccess.classList.toggle('d-none');
-                            // reset formnya
-                            form.reset();
-                            console.log('Success!', response);
-                        })
-                        .catch((error) => console.error('Error!', error.message));
-                }
-            });
-        </script>
-
-        <!-- 3D JS -->
-        <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
-        <script type="text/javascript">
-            VanillaTilt.init(document.querySelectorAll('.keyboard-box'), {
-                max: 25,
-                speed: 400,
-                glare: true
-            });
-        </script>
+        <script src="script.js"></script>
     </body>
 </html>
