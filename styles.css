@@ -113,7 +113,7 @@ header .hamburger .bar {
 /* Hero Section */
 .hero {
     background: #f8f9fa;
-    padding: 100px 0;
+    padding: 120px 0;
     text-align: center;
 }
 
@@ -135,7 +135,7 @@ header .hamburger .bar {
 
 /* About Section */
 .about {
-    padding: 80px 0;
+    padding: 100px 0;
 }
 
 .about-content {
@@ -157,7 +157,7 @@ header .hamburger .bar {
 /* Skills Section */
 .skills {
     background: #f8f9fa;
-    padding: 80px 0;
+    padding: 100px 0;
 }
 
 .skills-grid {
@@ -175,7 +175,7 @@ header .hamburger .bar {
 
 /* Projects Section */
 .projects {
-    padding: 80px 0;
+    padding: 100px 0;
 }
 
 .projects-grid {
@@ -307,6 +307,6 @@ footer {
     }
 
     header .nav-links li {
-        margin: 15px 0;
+        padding-bottom: 20px;
     }
 }
